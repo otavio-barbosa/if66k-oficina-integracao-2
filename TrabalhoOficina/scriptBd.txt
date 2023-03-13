@@ -1,0 +1,5 @@
+CREATE TABLE filmes (nome varchar(100), genero varchar(100), ano integer);
+
+INSERT INTO filmes VALUES('Run', 'Suspense', 2016);
+INSERT INTO filmes VALUES('Batman', 'Ficção', 2012);
+INSERT INTO filmes VALUES('Charada', 'Ação', 2022);
