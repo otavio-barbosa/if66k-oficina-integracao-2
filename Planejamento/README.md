@@ -56,8 +56,3 @@ Teste de Unidade - Será realizado pelos desenvolvedores, focalizado em cada com
 
 
 	Java, JDBC, PostgreSQL, PgAdmin, Java Swing e NetBeans.
-
-
-
-
-
