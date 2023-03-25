@@ -17,7 +17,8 @@
 5. Pesquisa de filmes: a aplicação deve permitir que o usuário pesquise por filmes cadastrados, utilizando o nome como critério.
 
 6. Validação de campos: a aplicação deve validar os campos obrigatórios para o cadastro de filmes, como nome e gênero, impedindo o cadastro de filmes com informações incompletas.
-7.Persistência de dados: a aplicação deve armazenar os dados de filmes cadastrados em um banco de dados, garantindo que as informações não sejam perdidas ao fechar a aplicação.
+
+7. Persistência de dados: a aplicação deve armazenar os dados de filmes cadastrados em um banco de dados, garantindo que as informações não sejam perdidas ao fechar a aplicação.
 
 8. A entrada para o campo ano deve ser um número inteiro.
 
