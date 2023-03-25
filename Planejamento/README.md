@@ -21,7 +21,7 @@
 
 8. A entrada para o campo ano deve ser um número inteiro.
 
-9. Ao cadastrar, o valor para o campo ano deve ser menor que 2023 e maior que 1895.
+9. Ao cadastrar, o valor para o campo ano deve ser menor que 2024 e maior que 1895.
 
 
 <h2>Definição da arquitetura em alto nível do sistema;<h2>
