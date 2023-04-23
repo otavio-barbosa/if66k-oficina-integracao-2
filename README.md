@@ -32,7 +32,7 @@ Repositório criado com o intuito de guardar as atividades desenvolvidas na mat�
   
   7 - Agora é só executar o projeto indo em: PROJETO -> VIEW -> BOTÃO DIREITO DO MOUSE -> RUN PROJECT
   
-  7 - Com o projeto aberto vá em: ARQUIVO -> ABRIR. Caso carregue os dados na tabebla do projeto, deu tudo certo como o esperado!
+  8 - Com o projeto aberto vá em: ARQUIVO -> ABRIR. Caso carregue os dados na tabebla do projeto, deu tudo certo como o esperado!
   
   ![image](https://user-images.githubusercontent.com/85796227/224830130-8d09405d-c286-4e40-83b1-b9a84c5c5e22.png)
 
