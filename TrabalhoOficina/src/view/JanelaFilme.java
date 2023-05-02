@@ -281,6 +281,15 @@ public class JanelaFilme extends javax.swing.JFrame {
     }//GEN-LAST:event_inputNomeActionPerformed
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
+        if (
+                (inputNome.getText().equals("") || inputNome.getText() == null) && 
+                (inputGenero.getText().equals("") || inputGenero.getText() == null) && 
+                (inputAno.getText().equals("") || inputAno.getText() == null)
+            ) {
+            JOptionPane.showMessageDialog(null, "Preencha os dados!!!");
+            return;
+        }
+        
         if (inputNome.getText().equals("") || inputNome.getText() == null) {
             JOptionPane.showMessageDialog(null, "Preencha o nome!!!");
             return;
