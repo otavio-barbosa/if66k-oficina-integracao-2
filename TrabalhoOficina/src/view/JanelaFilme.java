@@ -296,6 +296,16 @@ public class JanelaFilme extends javax.swing.JFrame {
             return;
         }
 
+        if (Integer.valueOf(inputAno.getText())< 1985) {
+            JOptionPane.showMessageDialog(null, "Ano deve ser maior que 1985!!!");
+            return;
+        }
+        
+        if (Integer.valueOf(inputAno.getText())> 2024) {
+            JOptionPane.showMessageDialog(null, "Ano deve ser menor que 2024!!!");
+            return;
+        }
+
         try {
             filme.cadastrar(inputNome.getText(), inputGenero.getText(), Integer.valueOf(inputAno.getText())); 
             
