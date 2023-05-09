@@ -55,6 +55,10 @@
 
 ![image](https://user-images.githubusercontent.com/85796227/235945612-650e7c46-eb50-4634-86a2-8f7bc8838810.png)
 
+5 - Pesquisa de filmes: a aplicação deve permitir que o usuário pesquise por filmes cadastrados, utilizando o nome como critério.
+
+![image](https://user-images.githubusercontent.com/85796227/236967450-e6996511-3141-44ab-b310-743ddd7624b2.png)
+
 
 6 - Validação de campos: a aplicação deve validar os campos obrigatórios para o cadastro de filmes, como nome e gênero, impedindo o cadastro de filmes com informações incompletas.
 
