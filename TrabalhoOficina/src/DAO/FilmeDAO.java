@@ -105,6 +105,8 @@ public class FilmeDAO extends BdConnection {
             stat = connection.prepareStatement("SELECT * FROM filmes WHERE LOWER(nome) = LOWER(?);");
             stat.setString(1, nome);
             rs = stat.executeQuery();
+
+            f = null;
            
            while(rs.next()) {
                
@@ -116,7 +118,11 @@ public class FilmeDAO extends BdConnection {
                arrayfilme.add(f);
            }
            
-           JOptionPane.showMessageDialog(null, "Nome: " + f.getNome() + "\nGenêro: " + f.getGenero() + "\nAno: " + f.getAno());
+            if (f == null) {
+               JOptionPane.showMessageDialog(null, "Não foi encontrado nenhum filme com o nome " + nome + "!");
+           } else {
+                JOptionPane.showMessageDialog(null, "Nome: " + f.getNome() + "\nGenêro: " + f.getGenero() + "\nAno: " + f.getAno());
+           }
 
         } catch (SQLException erro) {
             System.out.println("Falha na conexao, comando sql = " + erro);
